@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Довгий колаж з фото та текстом</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 75%; /* Змініть це значення, щоб налаштувати співвідношення сторін фото */
+        }
+
+        .image-container img {
+            position: absolute;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<nav style="height: 70px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+        <svg style="padding-left: 10px;" xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+</svg>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+             <li class="nav-item">
+                <a class="nav-link" href="#">Головна сторінка</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Реєстрація</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Контакти</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Додаткова інформація</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+    <div style="margin: 20px;" class="row">
+        <div class="col-md-6">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/02/52/04/46/240_F_252044620_f81jkEnmaipKjXxY7RVUKhdbaD5UTxay.jpg" alt="Фото 1">
+            </div>
+            <h3>Текст фото 1</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora consectetur laboriosam corporis, quasi dicta explicabo enim in repudiandae facere illo perspiciatis illum error voluptate dolores. Similique blanditiis nisi libero iure.
+               Unde fuga impedit nostrum quaerat natus est placeat ab, laborum quia. Consectetur qui ipsum voluptate suscipit accusamus quod inventore ea consequuntur odit repudiandae, reiciendis laborum, voluptatibus et, fugiat placeat. Asperiores.
+               Quas alias nulla deleniti debitis sunt eos a excepturi cum delectus ducimus officia aspernatur rem dolorem ea quod doloremque veritatis, aperiam omnis. Culpa itaque autem modi laborum explicabo doloremque necessitatibus.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/05/64/70/90/240_F_564709086_tJsdbUS5H9KBwEcti2n22p7hMdmPvspI.jpg" alt="Фото 2">
+            </div>
+            <h3>Текст фото 2</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat necessitatibus voluptate autem at, recusandae illum! Tempora repellendus nemo incidunt. Vero amet vitae natus id animi quidem nostrum necessitatibus dolorum unde!
+               Nesciunt numquam, illo consequatur perspiciatis accusantium itaque amet nobis quod reprehenderit quaerat mollitia excepturi neque voluptatibus alias officiis, delectus ipsa aspernatur autem dolor ut dolore earum eaque sint. Pariatur, architecto?
+               Voluptas itaque magnam reprehenderit aut rerum provident repellat facere nihil non nam temporibus iure natus modi similique dolores dolorem labore culpa explicabo obcaecati maiores magni, quaerat ab in autem. Ipsa?
+            </p>
+        </div>
+    </div>
+
+    <div style="margin: 20px;" class="row">
+        <div class="col-md-4">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/03/58/64/30/240_F_358643063_dAFMW34KvMm6sbMQh7imQya7jOLm19BU.jpg" alt="Фото 3">
+            </div>
+            <h3>Текст фото 3</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero delectus quidem debitis eveniet. Magnam est blanditiis eius voluptatem id sint aliquid accusantium pariatur sunt, laboriosam voluptates unde rerum, enim consequuntur.
+               Veniam adipisci exercitationem, ratione ea quos tempore fuga consequatur blanditiis rem sunt non error maxime tenetur voluptates repudiandae culpa optio ducimus laboriosam eos sed atque quas voluptate enim. Facere, exercitationem.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/03/72/40/42/240_F_372404291_4wVGQA5EiEd4orReTX3YaQGTsKwkyH8s.jpg" alt="Фото 4">
+            </div>
+            <h3>Текст фото 4</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum perferendis vitae quam iure omnis iusto assumenda a. Totam atque voluptates enim eveniet delectus, odit commodi voluptatibus aspernatur omnis, vitae nemo.
+               Doloribus optio voluptatem, eum sunt incidunt, unde corrupti odit illum fuga ipsum necessitatibus vel earum laudantium harum distinctio assumenda adipisci sit cumque, nulla in. Iste repellat sit aliquid similique nisi.
+            </p>
+        </div>
+        <div class="col-md-4">
+            <div class="image-container">
+                <img src="https://t4.ftcdn.net/jpg/06/00/22/21/240_F_600222192_OkUVwr9vOkrW7A9F3qnbb7dNizU0I7d6.jpg" alt="Фото 5">
+            </div>
+            <h3>Текст фото 5</h3>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti natus inventore nesciunt pariatur, consequuntur odit ea sapiente quam eius assumenda, neque, laboriosam perspiciatis repellendus fugit. Cupiditate fuga sunt corrupti nihil?
+               Quis, error natus? Sint, porro molestias! Rerum mollitia est modi temporibus necessitatibus dolorem deleniti repudiandae facere assumenda praesentium! Veniam et corporis sed reprehenderit ipsum nostrum commodi optio voluptatem fugiat quia.
+            </p>
+        </div>
+    </div>
+
+    <div style="margin: 20px;" class="row">
+        <div class="col-md-3">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/00/00/54/72/240_F_547262_Z6qM1tYijkGQa6c8VfBq0NXCqstuQa.jpg" alt="Фото 6">
+            </div>
+            <h3>Текст фото 6</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint fugiat aliquam, id adipisci sequi numquam dolorum nostrum, itaque corporis suscipit iure deleniti incidunt quis dicta. Asperiores perspiciatis sequi doloribus quam?
+              Magni laboriosam repudiandae commodi sequi, officiis facilis dolore quis ipsam cupiditate fugiat quod officia molestias aliquam at dignissimos tempore aperiam amet minus tempora soluta alias omnis quibusdam, veritatis ex. Dignissimos.
+              Quas ea magnam, magni recusandae esse quos velit in harum, cum nesciunt provident nostrum illo sint nemo a quis porro perspiciatis, repellendus placeat quae et reprehenderit rerum doloremque. Maiores, quisquam.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/01/96/49/58/240_F_196495821_Wd0hEidZow5j7kZOWXCXKVoGr1gJ0oDN.jpg" alt="Фото 7">
+            </div>
+            <h3>Текст фото 7</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint fugiat aliquam, id adipisci sequi numquam dolorum nostrum, itaque corporis suscipit iure deleniti incidunt quis dicta. Asperiores perspiciatis sequi doloribus quam?
+              Magni laboriosam repudiandae commodi sequi, officiis facilis dolore quis ipsam cupiditate fugiat quod officia molestias aliquam at dignissimos tempore aperiam amet minus tempora soluta alias omnis quibusdam, veritatis ex. Dignissimos.
+              Quas ea magnam, magni recusandae esse quos velit in harum, cum nesciunt provident nostrum illo sint nemo a quis porro perspiciatis, repellendus placeat quae et reprehenderit rerum doloremque. Maiores, quisquam.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <div class="image-container">
+                <img src="https://t3.ftcdn.net/jpg/03/28/52/36/240_F_328523611_nsNfBgu7OHFblcRyTW67wB6uzcAp7RCl.jpg" alt="Фото 8">
+            </div>
+            <h3>Текст фото 7</h3>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint fugiat aliquam, id adipisci sequi numquam dolorum nostrum, itaque corporis suscipit iure deleniti incidunt quis dicta. Asperiores perspiciatis sequi doloribus quam?
+              Magni laboriosam repudiandae commodi sequi, officiis facilis dolore quis ipsam cupiditate fugiat quod officia molestias aliquam at dignissimos tempore aperiam amet minus tempora soluta alias omnis quibusdam, veritatis ex. Dignissimos.
+              Quas ea magnam, magni recusandae esse quos velit in harum, cum nesciunt provident nostrum illo sint nemo a quis porro perspiciatis, repellendus placeat quae et reprehenderit rerum doloremque. Maiores, quisquam.
+            </p>
+        </div>
+        <div class="col-md-3">
+            <div class="image-container">
+                <img src="https://t4.ftcdn.net/jpg/01/68/30/87/240_F_168308785_VD44ikKib5vJCQiFWwyjF6sBiNSklca6.jpg" alt="Фото 9">
+            </div>
+            <h3>Текст фото 8</h3>
+            <p>
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint fugiat aliquam, id adipisci sequi numquam dolorum nostrum, itaque corporis suscipit iure deleniti incidunt quis dicta. Asperiores perspiciatis sequi doloribus quam?
+              Magni laboriosam repudiandae commodi sequi, officiis facilis dolore quis ipsam cupiditate fugiat quod officia molestias aliquam at dignissimos tempore aperiam amet minus tempora soluta alias omnis quibusdam, veritatis ex. Dignissimos.
+              Quas ea magnam, magni recusandae esse quos velit in harum, cum nesciunt provident nostrum illo sint nemo a quis porro perspiciatis, repellendus placeat quae et reprehenderit rerum doloremque. Maiores, quisquam.
+            </p>
+        </div>
+    </div>
+<hr>
+    <form>
+  <div style="width: 500px; margin-left: 450px;" class="mb-3">
+    <label style="font-family: Georgia, 'Times New Roman', Times, serif; color: darkgray; font-size: 35px;" for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+    </form>
+
+    <!-- Додайте більше рядків та колонок для більшої кількості фото -->
+
+</div>
+
+<footer style="height: 50px;" class="footer bg-dark text-white text-center">
+    <div class="container">
+        <span style="margin-top: 10px;">Усі права захищено &copy; 2023</span>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
